@@ -1,0 +1,27 @@
+@import './base.scss';
+
+.navbar {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navMenu {
+    display: flex;
+    flex: 1;
+    justify-content: center;  
+
+    .navLink {
+      list-style: none;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  }
+
+  .toggle {
+    background-color: $red-color;
+    width: 70px;
+    height: 60px;
+  }
+
+}
